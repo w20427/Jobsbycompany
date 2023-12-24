@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="shortcut icon" href="Images/amitlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/83c0e88501.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/amitlogo.png" width="114px"  class="logo">
+
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Portfolio</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Android App Developer</p>
+                <h1>Hi, I'm <span>Amit Kumar </span><br> From West Champaran</h1>
+            </div>
+        </div>
+    </div>
+ <!-- --------------------About-------------------- -->
+    <!-- <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/mypicres.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Civil Engineering Student Currently Studying in 7th Semester At Government Engineering College West Champaran
+                        I am passionate in App Development. I am a fast learner who always study to learn something new to keep me updated
+                        Also I am good at Civil Engineering Software Such As Autocad, Sketchup,Enscape,Vray.
+                        As a hobby I do Video Editing on Adobe Pr Pro.
+                        I am a sports person I play badminton and football in my offtime.
+                        At morning I do yoga and meditation.
+                        I love pets such as Dogs and Rabbit.</p>
+
+                        <div class="tab-titles">
+                            <p class="tabs-links active-link" onclick="opentab('skills',event)">Skills</p>
+                            <p class="tabs-links"  onclick="opentab('experience',event)">Experience</p>
+                            <p class="tabs-links"  onclick="opentab('education',event)">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>App Development</span> <br>Building Android Apps</li>
+                                <li><span>Autocad</span> <br>Making 2d House plan</li>
+                                <li><span>Sketchup</span> <br>Making 3d Interior and Exterior  </li>
+                                <li><span>Enscape </span> <br>For Realtime Rendering 3d Interior and Exterior  </li>
+                                <li><span>Adobe Pr Pro</span> <br> Eye catching Video Editing </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Government Engineering West Champaran</span> <br>Building Apps using webView for my college</li>
+                                <li><span>Government Engineering West Champaran</span> <br>Made Todo App for my college</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-24</span> <br>Civil Engineering From Government Engineering College West Champaran</li>
+                                <li><span>2018-20</span> <br>Intermediate From R.B college Dukkhichapar</li>
+                                <li><span>2014-18</span> <br>High School From U.p Sainik School Lucknow</li>
+                               
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- -------------Services-------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+
+                    <img src="https://careerforfreshers.com/wp-content/uploads/2023/10/Screenshot_16.jpg" height="100px" width="230px">
+                    <h2>HCL Careers</h2>
+                    <p>
+                        At HCLTech, you’ll supercharge your potential. You’ll find your career. And you’ll find your spark. All at a place that knows that helping its customers stay on top starts by putting its peoApply Now
+                    </p>
+                    <a href="https://www.hcltech.com/careers/Careers-in-india" target="_blank"> Apply Now</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+
+                    <img src="data:image/png;base64,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" height="100px" width="230px">
+                    <h2>Google Careers</h2>
+                    <p>
+                        Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging and providing an equal employment opportunity regardless of race, creed, colour, religion, gender, sexual orientation,
+                    </p>
+                    <a href="https://www.google.com/about/careers" target="_blank">Apply Now</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+
+                    <img src="https://www.raisegoodjobs.org/wp-content/uploads/Amazon-Jobs-logo.gif" height="100px" width="230px">
+                    <h2>Amazon Careers</h2>
+                    <p>
+                        Come build the future with us
+                             Our mission is to be Earth's most customer-centric company. This is what unites Amazonians across teams and geographies as we are all striving to delight our customers and make their lives easier, one innovative product, service, and idea at a time.
+                    </p>
+                    <a href="https://www.amazon.jobs/" target="_blank">Apply Now</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGLqn5DmeXKI2VQQp9_JiL1GBEw0STYKsQLw&usqp=CAU" alt="" srcset="">
+                    <h2>Meta Careers</h2>
+                    <p>
+                        META CAREERS
+                          Take ownership, chase ideas and build the future of connectivity.
+                    </p>
+                    <a href="https://www.metacareers.com/" target="_blank"> Apply Now</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <img src="https://media.licdn.com/dms/image/D5612AQGIMkvfZFnoLA/article-cover_image-shrink_720_1280/0/1694601620538?e=2147483647&v=beta&t=58NioVBmUBi6CyF7cKyD7h-B9GJmwJN-WgzUuWcXsm4" alt="" srcset="">
+                    <h2>Microsoft Careers</h2>
+                    <p>
+                        At Microsoft, you’ll take risks, push boundaries, and grow more than you thought possible. And you won’t be alone on that journey. We have something special here; we put our employees at the center of everything we do, and we know that what we offer is essential not only to your work but to your life too.  
+                    </p>
+                    <a href="https://careers.microsoft.com/v2/global/en/home.html" target="_blank"> Apply Now</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <img src="https://careerindiagov.in/wp-content/uploads/2019/11/1064029.png" alt="" srcset="">
+                    <h2>Hp Carrers</h2>
+                    <p>
+                        One thoughtful idea has power to change the world
+                    </p>
+                    <a href="https://jobs.hp.com/" target="_blank"> Apply Now</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <img src="https://techcompreviews.in/wp-content/uploads/2023/11/tcs.png" alt="" srcset="">
+                    <h2>Tcs Carrers</h2>
+                    <p>
+                        Through the application of innovation and our contextual knowledge, we give associates the opportunity to deliver transformative outcomes that benefit society at large and prove that anything is possible.</p>
+                    <a href="https://www.tcs.com/careers" target="_blank"> Apply Now</a> 
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde rem deserunt consectetur accusamus quaerat labore error. Praesentium at officia culpa unde ab, consequatur illum exercitationem voluptates expedita commodi reprehenderit.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Portfolio--------------- -->
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tabs-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, event) {
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+
+</html>
